@@ -2,7 +2,7 @@ import { Router } from "express";
 
 const router = Router();
 
-router.get("/", (req, res) => res.json({ message: "Created pipeline, successfully deployed image on ECR using buildspec.yml file, everything running smooth! 🎉" }));
+router.get("/", (req, res) => res.json({ message: "CLONED THE WHOLE PIPELINE! 🎉" }));
 
 router.get("/health", (req, res) => {
   // throw new Error("Internal Server Error");
